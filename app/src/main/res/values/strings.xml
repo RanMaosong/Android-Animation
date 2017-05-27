@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Animation</string>
+    <string name="title_activity_list_view">ListViewActivity</string>
+</resources>

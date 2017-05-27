@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.song.animation.ViewAnimation">
+    <Button
+        android:id="@+id/anim_view"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        />
+    <Button
+        android:id="@+id/alpha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Alpha"
+        />
+    <Button
+        android:id="@+id/rotate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/alpha"
+        android:text="Rotate"
+        />
+    <Button
+        android:id="@+id/translate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rotate"
+        android:text="Translate"
+        />
+    <Button
+        android:id="@+id/scale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/translate"
+        android:text="Scale"
+        />
+    <Button
+        android:id="@+id/animationset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/scale"
+        android:text="AnimationSet"
+        />
+    <Button
+        android:id="@+id/xml"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/animationset"
+        android:text="XML"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.song.animation.MainActivity"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/view_anim_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Animation in COde"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ListView1"
+        android:onClick="listView1"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ListView2"
+        android:onClick="listView2"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ListView3"
+        android:onClick="listView3"
+        />
+
+</LinearLayout>
