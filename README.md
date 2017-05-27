@@ -18,7 +18,7 @@ mView.startAnimation(anim)		# 开始动画， mVIew为动画的目标对象
 
 代码效果
 
-![alpha](/home/song/alpha.gif)
+![alpha](/picture/alpha.gif)
 
 ### 2 旋转动画
 
@@ -31,7 +31,7 @@ anim.setFillAfter(true);
 mView.startAnimation(anim);
 ```
 
-![rotate](/home/song/rotate.gif)
+![rotate](/picture/rotate.gif)
 
 ### 3 位移动画
 
@@ -42,7 +42,7 @@ anim.setFillAfter(true);
 mView.startAnimation(anim);
 ```
 
-![translate](/home/song/translate.gif)
+![translate](/picture/translate.gif)
 
 ### 4 缩放动画
 
@@ -55,7 +55,7 @@ anim.setFillAfter(true);
 mView.startAnimation(anim);
 ```
 
-![scale](/home/song/scale.gif)
+![scale](/picture/scale.gif)
 
 ### 5 动画集合
 
@@ -90,7 +90,7 @@ anim1.setDuration(4000);
  mView.startAnimation(animSet);
 ```
 
-![set](/home/song/set.gif)
+![set](/picture/set.gif)
 
 ### 6 View 动画在XML设置
 
@@ -175,7 +175,7 @@ view animation的xml文件放在res/anim/文件夹下
 </set>
 ```
 
-![layoutxml](/home/song/layoutxml.gif)
+![layoutxml](/picture/layoutxml.gif)
 
 ### 3 Java中使用
 
@@ -187,7 +187,7 @@ mView.startAnimation(mAnimation);
 
 
 
-![xml](/home/song/xml.gif)
+![xml](/picture/xml.gif)
 
 可以为动画添加事件
 
@@ -254,7 +254,7 @@ mAnimationDrawable.start();
 android：animateLayoutChanges="true"
 ```
 
-![simple](/home/song/simple.gif)
+![simple](/picture/simple.gif)
 
 ### 2 Layout 动画在XML中设置
 
@@ -319,7 +319,7 @@ view 动画 XML  -- 一个普通view动画的 xml 文件（anim/list_view.xml)_
       </ListView>
   ```
 
-![layoutxml](/home/song/layoutxml.gif)
+![layoutxml](/picture/layoutxml.gif)
 
 ###　3 Java代码创建
 
@@ -346,7 +346,7 @@ overridePendingTransition(android.R.anim.slide_in_left, android.R.anim.slide_out
 
 
 
-![activity](/home/song/activity.gif)
+![activity](/picture/activity.gif)
 
 ## 属性动画
 
